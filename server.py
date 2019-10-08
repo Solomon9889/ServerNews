@@ -58,4 +58,5 @@ def url():
 if __name__ == '__main__':
     article = NewsPlease.from_url('https://economictimes.indiatimes.com/wealth/personal-finance-news/rbi-policy-why-repo-rate-cut-failed-to-cheer/articleshow/71451242.cms')
     print(article)
-    app.run(host='0.0.0.0', port=5002)
+    app.run(debug=True, port=33507)
+    # app.run(host='0.0.0.0', port=5002)
